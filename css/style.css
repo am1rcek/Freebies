@@ -1,0 +1,203 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #F2F2F2;
+}
+.set-up{
+    width: 276px;
+    height: 446px;
+    background: #FFD500;
+    border-color: none;
+    border-radius: 21.25px 0px 0px 21.25px;
+    padding:80px 0 60px 0;
+}
+.freebies{
+    justify-content: center;
+    transform: translateY(35%);
+}
+.girl-pciture{
+    display: block;
+    margin: 0 auto;
+}
+.title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 57px;
+    text-align: center;
+    color: #383838;
+}
+.text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    color: #383838;
+    width: 175px;
+    margin: 10px auto 38px auto;
+}
+.icon-chevron{
+    position:absolute;
+    font-size: 35px;
+    transform: translateX(120px);
+    color: #FFD500;
+    background: #383838;
+    border-radius: 50%;
+}
+.registr{
+    background: #FFFFFF;
+    border-radius: 21.25px;
+    width: 403px;
+    height: 446px;
+    border-radius: 0px 21.25px 21.25px 0px;
+    padding: 54px 73px;
+}
+label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.4089px;
+    line-height: 9px;
+    display: flex;
+    align-items: flex-end;
+    color: #373D40;
+}
+.input{
+    background: #F5F8F9;   
+    border:none;
+    border-radius: 2.64604px;
+    margin-left: 30px;
+    padding: 8px 10px;
+    width: 191px;
+}
+.input::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    color: #B1BFCD;
+}
+.input:focus{
+    outline: none;
+    box-shadow: 0px 0px 2px #CAD7DD;
+    background: rgba(245, 248, 249, 0.3);
+}
+input[type="radio"]{
+    margin-left: 26px;
+    display: none;
+}
+.gender-label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.4089px;
+    line-height: 9px;
+    color: #B1BFCD;
+}
+.gender{
+    margin-left: 25px;
+    margin-top: 9px;
+}
+.male{
+    margin-left: 10px;
+    width: 40px;
+}
+.male-icon{
+    border-radius: 50%;
+    background:#F5F8F9;
+    padding: 7px 8px 6px 9px;
+}
+.female-icon{
+    border-radius: 50%;
+    background:#F5F8F9;
+    padding: 7px 9px 6px 10px; 
+}
+.female{
+    margin-left: 6px;
+}
+.date-input{
+    margin-left: 7px;
+}
+.date-input-box{
+    margin-top: 10px;
+}
+.email-input{
+    margin-top: 10px;
+}
+.phone-input{
+    margin-top: 10px;
+}
+.num-input{
+    margin-left: 24px;
+}
+.id-input-box{
+    margin-top: 10px;
+}
+.id-input{
+    margin-left: 5px;
+}
+.classic{
+    margin-left: 3px;
+}
+.classic::before{
+    content: "";
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-image: url("../img/clasic.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+.silver{
+    margin-left: 15px;
+}
+.silver::before{
+    content: "";
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-image: url("../img/clasic.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+.gold{
+    margin-left: 15px;
+}
+.gold::before{
+    content: "";
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-image: url("../img/clasic.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+.membership-box{
+    margin-top: 30px;
+}
+.btn-box{
+    margin-top: 21px;
+}
+.btn-cancel{
+    border: none;
+    padding: 10px 25px;
+    background: #F5F8F9;
+    border-radius: 2.64604px;
+}
+.btn-save{
+    margin-left: 10px;
+    border: none;
+    padding: 10px 25px;
+    background: #60E6C5;
+    border-radius: 2.64604px; 
+    color: #FFF;
+}

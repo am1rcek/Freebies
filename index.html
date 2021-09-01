@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Freebies</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/column.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="row freebies">
+        <div class="set-up">
+            <img class="girl-pciture" src="img/girl.svg" alt="girl-img" width="118px" height="118px">
+            <h2 class="title">Let’s get you set up</h2>
+            <p class="text">Itshould only take a couple of minutes<br>to pair with your watch</p>
+            <a href="#"><i class='bx icon-chevron  bx-chevron-right'></i></a>
+        </div>
+        <div class="registr">
+            <form action="https://echo.htmlacademy.ru/">
+                <div class="row align-center">
+                    <label for="first-name">Name</label>
+                    <input class="input" type="text" name="First-name" id="first-name" placeholder="First-name" required>    
+                </div>
+                <div class="row align-center">
+                    <label>Gender</label>
+                    <div class="gender row align-center">
+                        <input type="radio" name="gender" id="male" required>
+                        <div class="male-icon">
+                            <img src="img/male.svg" alt="male-img">
+                        </div>
+                        <label class="gender-label male" for="male">Male</label>
+                        <input type="radio" name="gender" id="female" required>
+                        <div class="female-icon">
+                            <img src="img/female.svg" alt="female-img">
+                        </div>
+                        <label class="gender-label female" for="female">Female</label>
+                    </div>
+                </div>
+                <div class="row align-center date-input-box">
+                    <label for="data">Date of Birth</label>
+                    <input class="input date-input" type="date" name="date-time" id="data" required>
+                </div>
+                <div class="row align-center email-input">
+                    <label for="email">Email</label>
+                    <input class="input" type="email" name="Email" id="email" placeholder="kendall@emailcom" required>
+                </div>
+                <div class="row align-center phone-input">
+                    <label for="phone">Mobile</label>
+                    <input class="input num-input" type="number" name="Mobile" id="phone" placeholder="kendall@emailcom" required>
+                </div>
+                <div class="row align-center id-input-box">
+                    <label for="id">Customer ID</label>
+                    <input class="input id-input" type="number" name="Mobile" id="id" placeholder="576802-ERD0348 45" required>
+                </div>
+                <div>
+                    <div class="membership-box row align-center">
+                        <label class="membership">Membership</label>
+                        <input class="membership-input" type="radio" name="membership" id="classic">
+                        <label class="classic row align-center " for="classic">Classic</label>
+                        <input class="membership-input" type="radio" name="membership" id="silver">
+                        <label class="silver row align-center" for="silver">Silver</label>
+                        <input class="membership-input" type="radio" name="membership" id="gold">
+                        <label class="gold row align-center" for="gold">Gold</label>
+                    </div>
+                </div>
+                <div class="row align-center btn-box">
+                    <button class="btn-cancel" type="cancel">CANCEL</button>
+                    <button class="btn-save" type="submit">SAVE</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
